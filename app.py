@@ -2,8 +2,8 @@ import os
 from moviepy.editor import VideoFileClip
 
 def convert_files():
-    input_folder = "before/video"
-    output_folder = "after/video"
+    input_folder = "before/video" #creer un dossier before pour lister les films et choisir le film a convertir
+    output_folder = "after/video"#creer un dossier after ou vont etre stocker les films apres conversion
 
     print("Fichiers disponibles pour la conversion :")
     files = os.listdir(input_folder)
